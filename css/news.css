@@ -1,5 +1,8 @@
+pre {
+  font-family: 'Poiret One', cursive;
+}
 body {
-  background-color: black;
+  background-color: #D3D3D3;
   margin-left: auto;
   margin-right: auto;
   width: 750px;
@@ -31,8 +34,8 @@ div {
   margin-right: auto;
   width: 700px;
   min-height: 75px;
-  background-color:  #262626;
-  color: white;
+  background-color:  #D3D3D3;
+  color: #282828;
   font-size: 18pt;
   font-family: arial;
 }
@@ -46,11 +49,12 @@ div {
 }
 
 a {
-  color: white;
+  color: #282828;
 }
 
 h1 {
-  color: #3AD7FF;
+  color: #000000;
+  font-family: 'Tangerine', cursive;
 }
 
 .big {
@@ -63,7 +67,7 @@ h1 {
 
 .central-column {
   width: 700px;
-  background-color:  #262626;
+  background-color:  #ffffff;
   color: white;
   float: none;
   min-height: 0px;

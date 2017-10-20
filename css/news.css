@@ -1,0 +1,169 @@
+body {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+}
+
+p {
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+hr {
+  color: white;
+}
+
+strong {
+  font-size: 20px;
+}
+
+div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  padding: 1px 25px 10px 25px;
+  background-color:	black;
+}
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  min-height: 75px;
+  background-color:  #262626;
+  color: white;
+  font-size: 18pt;
+  font-family: arial;
+}
+
+.left-column {
+    width: 15%;
+    background-color:  #262626;
+    color: white;
+    float: left;
+    min-height: 80px;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  color: #3AD7FF;
+}
+
+.big {
+  font-size: 20px;
+  background-color: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.central-column {
+  width: 700px;
+  background-color:  #262626;
+  color: white;
+  float: none;
+  min-height: 0px;
+}
+
+.right-column {
+  width: 15%;
+  min-height: 80px;
+  background-color: #262626;
+  color: white;
+  float:right;
+
+}
+
+.footer {
+  clear: both;
+}
+
+#navbar ul{
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  background-color: #262626;
+  position: absolute;
+  top: 100%;
+
+}
+
+#navbar li:hover ul {
+  display: block;
+ }
+
+#navbar, #navbar ul{
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#navbar {
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#262626;
+  padding-left: 0px;
+  min-width: 750px;
+}
+
+.fixed {
+  position: fixed;
+}
+#navbar li {
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  position: relative;
+  height: 100%;
+  background-color: #262626;
+
+}
+
+#navbar li a {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 7px;
+  width: 90px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-family: arial;
+  font-size:15px;
+}
+
+
+#navbar ul li {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+
+}
+
+#navbar li:hover {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffff00;
+}
+
+#navbar ul li:hover {
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #262626;
+
+}
+
+#navbar a:hover {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}

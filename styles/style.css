@@ -6,7 +6,7 @@ body {
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  width: 500px;
 }
 
 p {
@@ -25,9 +25,8 @@ strong {
 div {
   margin-left: auto;
   margin-right: auto;
-  width: 700px;
+  width: 500px;
   padding: 1px 0px 0px 0px;
-  background-color:	black;
 }
 
 a {
@@ -36,7 +35,7 @@ a {
 
 h1 {
   color: #2e2e2e;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', fantasy;
   font-size: 20px;
   line-height: 20px;
 }
@@ -69,7 +68,7 @@ h1 {
 }
 
 .central-column {
-  width: 600px;
+  width: 500px;
   background-color:  #ffffff;
   color: white;
   float: none;
@@ -91,18 +90,17 @@ h1 {
 }
 
 #navbar ul{
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5px;
+  margin-right: 5px;
   display: none;
-  background-color: #262626;
+  background-color: #000;
   position: absolute;
-  top: 100%;
 
 }
 
 #navbar li:hover ul {
   display: block;
- }
+}
 
 #navbar, #navbar ul{
   margin-left: auto;
@@ -115,18 +113,21 @@ h1 {
 #navbar {
   margin-left: auto;
   margin-right: auto;
-  background-color:#262626;
-  padding-left: 0px;
-  min-width: 750px;
+  margin-top: -10px;
+  background-color: #fff;
+  padding-left: 40px;
+  min-width: 7500px;
+  width: 300px;
 }
+
 
 #navbar li {
   margin-left: auto;
   margin-right: auto;
   float: left;
   position: relative;
-  height: 100%;
-  background-color: #262626;
+  height: 10px;
+  background-color: #fff;
 
 }
 
@@ -135,12 +136,13 @@ h1 {
   margin-right: auto;
   display: block;
   padding: 7px;
-  width: 90px;
-  color: #fff;
+  width: 80px;
+  color: #909192;
   text-decoration: none;
   text-align: center;
   font-family: arial;
   font-size:15px;
+  text-transform: uppercase;
 }
 
 
@@ -148,27 +150,21 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   float: none;
-
 }
 
 #navbar li:hover {
   margin-left: auto;
   margin-right: auto;
-  border-radius: 3px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #ffff00;
 }
 
 #navbar ul li:hover {
   margin-left: auto;
   margin-right: auto;
-  border-color: #262626;
-
+  border-color: #fff;
 }
 
 #navbar a:hover {
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
+  color: #000;
 }

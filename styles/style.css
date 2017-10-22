@@ -1,7 +1,13 @@
 pre {
-  font-family: 'Poiret One', cursive;
+  font-family: Arelagon;
   font-size: 30px;
 }
+
+@font-face {
+  font-family: Arelagon;
+  src: url(Arelagon.otf) format("opentype");
+}
+
 body {
   background-color: #fff;
   margin-left: auto;

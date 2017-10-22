@@ -30,6 +30,17 @@ div {
   background-color:	black;
 }
 
+a {
+  color: #282828;
+}
+
+h1 {
+  color: #2e2e2e;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
 .header {
   margin-left: auto;
   margin-right: auto;
@@ -47,17 +58,6 @@ div {
     color: white;
     float: left;
     min-height: 80px;
-}
-
-a {
-  color: #282828;
-}
-
-h1 {
-  color: #2e2e2e;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 20px;
-  line-height: 20px;
 }
 
 .big {

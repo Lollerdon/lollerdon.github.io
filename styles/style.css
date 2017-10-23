@@ -131,7 +131,16 @@ h1 {
 }
 
 .footer {
-  clear: both;
+  width: 500px;
+  background-color:  #ffffff;
+  color: #2e2e2e;
+  float: none;
+  min-height: 0px;
+  padding: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  font-family: arial, cursive;
+  font-size: 12px;
 }
 
 #navbar ul{
